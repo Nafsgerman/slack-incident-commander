@@ -21,7 +21,7 @@
 ## Milestone 3: Slack Integration
 
 - [x] Create Slack app manifest.
-- [ ] Implement Slack command or app mention handler.
+- [x] Implement Slack command or app mention handler.
 - [ ] Render incident brief using Slack Block Kit.
 - [ ] Add local development instructions.
 - [ ] Test in Slack developer sandbox.

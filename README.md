@@ -56,6 +56,8 @@ npm test
 
 The initial Slack app manifest draft is in `slack/manifest.yaml`. It will be refined after the sandbox app is created and tested.
 
+Slack setup instructions are in [docs/SLACK_SETUP.md](docs/SLACK_SETUP.md).
+
 ## License
 
 MIT.
