@@ -58,6 +58,11 @@ The initial Slack app manifest draft is in `slack/manifest.yaml`. It will be ref
 
 Slack setup instructions are in [docs/SLACK_SETUP.md](docs/SLACK_SETUP.md).
 
+## Design Docs
+
+- [Agent design](docs/AGENT_DESIGN.md)
+- [Security model](docs/SECURITY_MODEL.md)
+
 ## License
 
 MIT.
