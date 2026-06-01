@@ -25,14 +25,14 @@ Start with [docs/START_HERE.md](docs/START_HERE.md) and [docs/BRAINSTORMING.md](
 
 ```text
 docs/          Product, architecture, demo, and submission notes
+slack/         Slack app manifest and configuration
 src/app/       Slack app entry points and interaction handlers
 src/domain/    Incident domain model and orchestration logic
-src/tools/     Deterministic local tools used by the agent
-src/mcp/       MCP server adapter for tool access
+src/tools/     Deterministic local tools used by the MVP
 src/demo/      Synthetic demo scenarios
 tests/         Unit and behavior tests
-scripts/       Local development and demo helpers
-```
+
+Planned production extensions include an MCP tool adapter, durable incident storage, and external integrations for Slack Audit Logs, identity providers, SIEM, and ticketing systems.
 
 ## Development
 
