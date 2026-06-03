@@ -1,4 +1,5 @@
 import "dotenv/config";
+import { fileURLToPath } from "node:url";
 import { App } from "@slack/bolt";
 import { renderIncidentBriefBlocks, renderIncidentBriefText } from "./render.ts";
 import { runIncidentWorkflow } from "../domain/orchestrator.ts";
@@ -74,6 +75,8 @@ export const startSlackApp = async (): Promise<void> => {
   console.log("Slack Incident Commander is running in Socket Mode.");
 };
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+const isMainModule = process.argv[1] === fileURLToPath(import.meta.url);
+
+if (isMainModule) {
   await startSlackApp();
 }
